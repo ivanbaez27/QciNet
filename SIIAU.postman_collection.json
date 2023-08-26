@@ -1,0 +1,283 @@
+{
+	"info": {
+		"_postman_id": "44380341-5f6f-4c3e-bb9d-e25ab5e937d6",
+		"name": "SIIAU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1.- Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "p_codigo_c",
+							"value": "",
+							"description": "codigo de alumno",
+							"type": "text"
+						},
+						{
+							"key": "p_clave_c",
+							"value": "",
+							"description": "contraseña de siiau",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "siiauescolar.siiau.udg.mx/wus/gupprincipal.valida_inicio",
+					"host": [
+						"siiauescolar",
+						"siiau",
+						"udg",
+						"mx"
+					],
+					"path": [
+						"wus",
+						"gupprincipal.valida_inicio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2.1- Encabezado",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "p_titulo_c",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "p_pagina_c",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "p_bienvenida_c",
+							"value": "",
+							"description": "ID Misterioso",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "siiauescolar.siiau.udg.mx/wus/gupprincipal.encabezado",
+					"host": [
+						"siiauescolar",
+						"siiau",
+						"udg",
+						"mx"
+					],
+					"path": [
+						"wus",
+						"gupprincipal.encabezado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2.1- Menu holder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "p_pidm_n",
+							"value": "",
+							"description": "ID Misterioso",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "siiauescolar.siiau.udg.mx/wus/gupprincipal.FrameMenu",
+					"host": [
+						"siiauescolar",
+						"siiau",
+						"udg",
+						"mx"
+					],
+					"path": [
+						"wus",
+						"gupprincipal.FrameMenu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3.- Menu inicial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "siiauescolar.siiau.udg.mx/wus/gupmenug.menu_sistema?p_pidm_n=",
+					"host": [
+						"siiauescolar",
+						"siiau",
+						"udg",
+						"mx"
+					],
+					"path": [
+						"wus",
+						"gupmenug.menu_sistema"
+					],
+					"query": [
+						{
+							"key": "p_pidm_n",
+							"value": "",
+							"description": "ID Misterioso"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3.1- Menu de Alumnos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://siiauescolar.siiau.udg.mx/wal/gupmenug.menu?p_sistema_c=ALUMNOS&p_sistemaid_n=3&p_menupredid_n=3&p_pidm_n=",
+					"protocol": "http",
+					"host": [
+						"siiauescolar",
+						"siiau",
+						"udg",
+						"mx"
+					],
+					"path": [
+						"wal",
+						"gupmenug.menu"
+					],
+					"query": [
+						{
+							"key": "p_sistema_c",
+							"value": "ALUMNOS"
+						},
+						{
+							"key": "p_sistemaid_n",
+							"value": "3"
+						},
+						{
+							"key": "p_menupredid_n",
+							"value": "3"
+						},
+						{
+							"key": "p_pidm_n",
+							"value": "",
+							"description": "ID Misterioso"
+						},
+						{
+							"key": "p_majr_c",
+							"value": "",
+							"description": " podria omitirse, valor es ID Misterioso",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3.2- Menu de Alumnos- Academica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://siiauescolar.siiau.udg.mx/wal/gupmenug.menu?p_sistema_c=ALUMNOS&p_sistemaid_n=3&p_menupredid_n=236&p_pidm_n=",
+					"protocol": "http",
+					"host": [
+						"siiauescolar",
+						"siiau",
+						"udg",
+						"mx"
+					],
+					"path": [
+						"wal",
+						"gupmenug.menu"
+					],
+					"query": [
+						{
+							"key": "p_sistema_c",
+							"value": "ALUMNOS"
+						},
+						{
+							"key": "p_sistemaid_n",
+							"value": "3"
+						},
+						{
+							"key": "p_menupredid_n",
+							"value": "236"
+						},
+						{
+							"key": "p_pidm_n",
+							"value": "",
+							"description": "ID Misterioso"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4- Promedio del estudiante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://siiauescolar.siiau.udg.mx/wal/sgphist.promedio?pidmp=&majrp=INCO&cicloap=202120",
+					"protocol": "http",
+					"host": [
+						"siiauescolar",
+						"siiau",
+						"udg",
+						"mx"
+					],
+					"path": [
+						"wal",
+						"sgphist.promedio"
+					],
+					"query": [
+						{
+							"key": "pidmp",
+							"value": "",
+							"description": "valor es ID Misterioso"
+						},
+						{
+							"key": "majrp",
+							"value": "INCO",
+							"description": "Clave de carrera"
+						},
+						{
+							"key": "cicloap",
+							"value": "202120",
+							"description": "Ciclo de inicio de carrera"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
