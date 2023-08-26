@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cucei_tres" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" >@color/rosa</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="Theme.Cucei_tres" parent="Base.Theme.Cucei_tres" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/color_azul_grisaceo</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/leon_udg</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Cucei_tres</item>
+    </style>
+</resources>

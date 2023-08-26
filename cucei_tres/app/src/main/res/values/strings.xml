@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QciNet</string>
+    <string name="codigo">Código de estudiante</string>
+    <string name="nip">Contraseña</string>
+    <string name="leyenda">Usa tus credenciales de SIIAU</string>
+    <string name="iniciaSesion">Iniciar Sesión</string>
+    <string name="cerrarSesion">Cerrar Sesión</string>
+    <string name="errorIs">Los datos ingresados son incorrectos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

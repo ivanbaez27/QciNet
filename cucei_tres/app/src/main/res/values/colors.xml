@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_rojo_oscuro">#A93226</color>
+
+    <!-- Naranja quemado -->
+    <color name="color_naranja_quemado">#D35400</color>
+
+    <!-- Amarillo mostaza -->
+    <color name="color_amarillo_mostaza">#F39C12</color>
+
+    <!-- Amarillo suave -->
+    <color name="color_amarillo_suave">#F7DC6F</color>
+
+    <!-- Verde oliva -->
+    <color name="color_verde_oliva">#7DCEA0</color>
+
+    <!-- Verde salvia -->
+    <color name="color_verde_salvia">#1F618D</color>
+
+    <!-- Azul grisáceo -->
+    <color name="color_azul_grisaceo">#AED1D1</color>
+
+    <!-- Azul claro -->
+    <color name="color_azul_claro">#3498DB</color>
+
+    <!-- Gris claro -->
+    <color name="color_gris_claro">#BDC3C7</color>
+
+    <!-- Gris oscuro -->
+    <color name="color_gris_oscuro">#616A6B</color>
+    <color name="rosa">#f5d4f5</color>
+    <color name="color_rojo_claro">#ff6961</color>
+    <color name="color_verde_claro">#77dd77</color>
+    <color name="color_amarillo_claro">#fdfd96</color>
+    <color name="color_azul_cielo">#84b6f4</color>
+    <color name="color_rosa_claro">#fdcae1</color>
+    <color name="color_gris_logo">#5C5A5A</color>
+    <color name="blanco_suave">#EFF8FB</color>
+</resources>

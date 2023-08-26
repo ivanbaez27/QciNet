@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco_suave"
+    tools:context=".Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:elevation="10dp">
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:stretchColumns="0">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@mipmap/logo_compu" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="45dp">
+                <TextView
+                    style="@style/textViewProfile"
+                    android:text="Codigo de estudiante"/>
+                <TextView
+                    style="@style/textViewProfile1"
+                    android:text="217251855"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    style="@style/textViewProfile"
+                    android:text="Situacion"/>
+                <TextView
+                    style="@style/textViewProfile1"
+                    android:text="Activo"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    style="@style/textViewProfile"
+                    android:text="Semestre"/>
+                <TextView
+                    style="@style/textViewProfile1"
+                    android:text="10"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    style="@style/textViewProfile"
+                    android:text="Promedio"/>
+                <TextView
+                    style="@style/textViewProfile1"
+                    android:text="80.5"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    style="@style/textViewProfile"
+                    android:text="Carrera"/>
+                <TextView
+                    style="@style/textViewProfile1"
+                    android:text="INCO"/>
+            </TableRow>
+
+            <TextView
+                android:id="@+id/btnLogin"
+                style="@style/viewCustom"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_background"
+                android:onClick="logOut"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:text="@string/cerrarSesion"
+                android:textAlignment="center"
+                android:textColor="@color/color_gris_logo"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <!-- Agrega más filas para otros detalles del perfil -->
+        </TableLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>
